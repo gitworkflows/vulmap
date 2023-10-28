@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"io"
 
-	"github.com/khulnasoft-lab/httpx/common/httpx"
+	"github.com/projectdiscovery/httpx/common/httpx"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/disk"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/loader"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/core"
@@ -19,8 +19,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/ratelimit"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/ratelimit"
+	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 )
 

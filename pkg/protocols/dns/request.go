@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
@@ -22,7 +22,7 @@ import (
 	protocolutils "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	"github.com/khulnasoft-lab/retryabledns"
+	"github.com/projectdiscovery/retryabledns"
 	iputil "github.com/khulnasoft-lab/utils/ip"
 )
 

@@ -11,7 +11,7 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/pkg/errors"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	_ "github.com/khulnasoft-lab/vulmap/v3/pkg/js/generated/go/libbytes"
 	_ "github.com/khulnasoft-lab/vulmap/v3/pkg/js/generated/go/libfs"
 	_ "github.com/khulnasoft-lab/vulmap/v3/pkg/js/generated/go/libikev2"

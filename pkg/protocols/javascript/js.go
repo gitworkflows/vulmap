@@ -13,7 +13,7 @@ import (
 	"github.com/ditashi/jsbeautifier-go/jsbeautifier"
 	"github.com/dop251/goja"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/js/compiler"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/js/gojs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model"

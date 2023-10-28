@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 	folderutil "github.com/khulnasoft-lab/utils/folder"
 )

@@ -16,7 +16,7 @@ import (
 
 	"github.com/klauspost/compress/zlib"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/runner/vulmapcloud"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/loader"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/core"

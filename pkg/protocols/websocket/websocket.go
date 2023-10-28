@@ -16,8 +16,8 @@ import (
 	"github.com/gobwas/ws/wsutil"
 	"github.com/pkg/errors"
 
-	"github.com/khulnasoft-lab/fastdialer/fastdialer"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/fastdialer/fastdialer"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/extractors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/matchers"

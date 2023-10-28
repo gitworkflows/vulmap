@@ -3,7 +3,7 @@ package protocolstate
 import (
 	"github.com/dop251/goja"
 	"github.com/dop251/goja/parser"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 )
 
 // NewJSRuntime returns a new javascript runtime

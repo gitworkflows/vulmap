@@ -10,7 +10,7 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/extensions"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )
 

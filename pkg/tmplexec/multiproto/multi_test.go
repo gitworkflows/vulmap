@@ -14,7 +14,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 	"github.com/stretchr/testify/require"
 )
 

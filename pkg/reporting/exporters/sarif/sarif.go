@@ -10,7 +10,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
-	"github.com/khulnasoft-lab/sarif"
+	"github.com/projectdiscovery/sarif"
 )
 
 // Exporter is an exporter for vulmap sarif output format.

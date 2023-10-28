@@ -14,7 +14,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/protocolstate"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 )
 
 // Options contains necessary options required for splunk communication

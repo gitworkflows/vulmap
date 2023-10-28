@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 
 	"github.com/logrusorgru/aurora"
 
-	"github.com/khulnasoft-lab/gologger/levels"
+	"github.com/projectdiscovery/gologger/levels"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/disk"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model"

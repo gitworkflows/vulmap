@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/DataDog/gostackparse"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	permissionutil "github.com/khulnasoft-lab/utils/permission"
 	"github.com/rs/xid"
 )

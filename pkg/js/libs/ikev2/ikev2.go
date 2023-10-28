@@ -3,8 +3,8 @@ package ikev2
 import (
 	"io"
 
-	"github.com/khulnasoft-lab/n3iwf/pkg/ike/message"
-	"github.com/khulnasoft-lab/n3iwf/pkg/logger"
+	"github.com/projectdiscovery/n3iwf/pkg/ike/message"
+	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func init() {

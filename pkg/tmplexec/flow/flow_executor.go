@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 
 	"github.com/dop251/goja"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"

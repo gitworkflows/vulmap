@@ -12,7 +12,7 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/js/compiler"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
@@ -22,7 +22,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/signer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/tmplexec"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )

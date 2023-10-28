@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/gologger/levels"
-	"github.com/khulnasoft-lab/httpx/common/httpx"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/gologger/levels"
+	"github.com/projectdiscovery/httpx/common/httpx"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/installer"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/runner"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
@@ -29,7 +29,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 )
 
 // applyRequiredDefaults to options

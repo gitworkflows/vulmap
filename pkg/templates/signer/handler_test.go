@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/gologger/levels"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/gologger/levels"
 )
 
 // This Unit Test generates a new key pair and parses it

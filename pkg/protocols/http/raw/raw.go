@@ -8,7 +8,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/khulnasoft-lab/rawhttp/client"
+	"github.com/projectdiscovery/rawhttp/client"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	urlutil "github.com/khulnasoft-lab/utils/url"

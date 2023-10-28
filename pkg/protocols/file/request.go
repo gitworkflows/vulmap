@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/remeh/sizedwaitgroup"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/matchers"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"

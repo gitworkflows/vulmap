@@ -31,7 +31,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 )
 
 var libraryTestcases = []TestCaseInfo{

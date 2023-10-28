@@ -15,8 +15,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/http/httpclientpool"
 	httputil "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils/http"
-	"github.com/khulnasoft-lab/rawhttp"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/rawhttp"
+	"github.com/projectdiscovery/retryablehttp-go"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 )
 
@@ -169,7 +169,7 @@ type Request struct {
 	// description: |
 	//   Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests.
 	//
-	//   This uses the [rawhttp](https://github.com/khulnasoft-lab/rawhttp) engine to achieve complete
+	//   This uses the [rawhttp](https://github.com/projectdiscovery/rawhttp) engine to achieve complete
 	//   control over the request, with no normalization performed by the client.
 	Unsafe bool `yaml:"unsafe,omitempty" json:"unsafe,omitempty" jsonschema:"title=use rawhttp non-strict-rfc client,description=Unsafe specifies whether to use rawhttp engine for sending Non RFC-Compliant requests"`
 	// description: |

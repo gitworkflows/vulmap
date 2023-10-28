@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/hmap/store/hybrid"
-	"github.com/khulnasoft-lab/httpx/common/httpx"
+	"github.com/projectdiscovery/httpx/common/httpx"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"

@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/gozero"
-	gozerotypes "github.com/khulnasoft-lab/gozero/types"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/gozero"
+	gozerotypes "github.com/projectdiscovery/gozero/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/extractors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/matchers"

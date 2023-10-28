@@ -14,15 +14,15 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/internal/installer"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/runner/vulmapcloud"
-	uncoverlib "github.com/khulnasoft-lab/uncover"
+	uncoverlib "github.com/projectdiscovery/uncover"
 	permissionutil "github.com/khulnasoft-lab/utils/permission"
 	updateutils "github.com/khulnasoft-lab/utils/update"
 
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/colorizer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
@@ -56,7 +56,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/stats"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/yaml"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	ptrutil "github.com/khulnasoft-lab/utils/ptr"
 )
 

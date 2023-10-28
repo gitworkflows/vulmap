@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/clistats"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/clistats"
+	"github.com/projectdiscovery/gologger"
 )
 
 // Progress is an interface implemented by vulmap progress display

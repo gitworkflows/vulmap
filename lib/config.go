@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/progress"
@@ -13,7 +13,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/headless/engine"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 )
 
 // TemplateSources contains template sources

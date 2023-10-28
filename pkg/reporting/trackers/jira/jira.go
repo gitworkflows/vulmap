@@ -8,11 +8,11 @@ import (
 	"github.com/andygrunwald/go-jira"
 	"github.com/trivago/tgo/tcontainer"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/exporters/markdown/util"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/format"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 )
 
 type Formatter struct {

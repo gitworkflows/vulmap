@@ -15,7 +15,7 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/rawhttp"
+	"github.com/projectdiscovery/rawhttp"
 	mapsutil "github.com/khulnasoft-lab/utils/maps"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 )

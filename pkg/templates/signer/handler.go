@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 	"github.com/rs/xid"
 	"golang.org/x/term"

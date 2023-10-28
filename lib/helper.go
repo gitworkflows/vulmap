@@ -6,7 +6,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	uncoverVulmap "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/uncover"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
-	"github.com/khulnasoft-lab/uncover"
+	"github.com/projectdiscovery/uncover"
 )
 
 // helper.go file proxy execution of all vulmap functions that are nested deep inside multiple packages

@@ -10,7 +10,7 @@ import (
 
 	"github.com/dop251/goja"
 	"github.com/logrusorgru/aurora"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/js/gojs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"

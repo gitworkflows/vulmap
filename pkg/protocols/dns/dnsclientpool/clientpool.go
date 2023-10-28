@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/retryabledns"
+	"github.com/projectdiscovery/retryabledns"
 )
 
 var (

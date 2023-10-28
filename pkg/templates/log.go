@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
 	mapsutil "github.com/khulnasoft-lab/utils/maps"

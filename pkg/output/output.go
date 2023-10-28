@@ -17,8 +17,8 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
 
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/interactsh/pkg/server"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/interactsh/pkg/server"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/colorizer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"

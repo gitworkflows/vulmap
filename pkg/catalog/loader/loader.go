@@ -10,7 +10,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	cfg "github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
@@ -23,7 +23,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/stats"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/workflows"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	urlutil "github.com/khulnasoft-lab/utils/url"

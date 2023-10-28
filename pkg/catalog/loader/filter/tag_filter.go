@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/Knetic/govaluate"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/common/dsl"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/extractors"

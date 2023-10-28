@@ -7,9 +7,9 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/rdap"
+	"github.com/projectdiscovery/rdap"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/extractors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/matchers"

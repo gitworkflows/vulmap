@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/goflags"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/utils/env"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 	fileutil "github.com/khulnasoft-lab/utils/file"

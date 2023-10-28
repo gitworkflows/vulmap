@@ -59,7 +59,7 @@ vulmap:
 
 interactsh:
   image:
-    repository: docker.io/khulnasoft-lab/interactsh-server
+    repository: docker.io/projectdiscovery/interactsh-server
     pullPolicy: IfNotPresent
     tag: "v1.0.6"
 

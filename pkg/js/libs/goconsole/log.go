@@ -2,7 +2,7 @@ package goconsole
 
 import (
 	"github.com/dop251/goja_nodejs/console"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 )
 
 var _ console.Printer = &GoConsolePrinter{}

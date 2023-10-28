@@ -12,7 +12,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/replacer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/dns/dnsclientpool"
-	"github.com/khulnasoft-lab/retryabledns"
+	"github.com/projectdiscovery/retryabledns"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 )
 

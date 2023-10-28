@@ -7,7 +7,7 @@ import (
 
 	"github.com/Knetic/govaluate"
 	"github.com/itchyny/gojq"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	fileutil "github.com/khulnasoft-lab/utils/file"
 )
 

@@ -9,7 +9,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/exporters/markdown/util"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/format"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	"golang.org/x/oauth2"
 	"io"
 	"net/http"

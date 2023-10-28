@@ -14,9 +14,9 @@ import (
 
 	"github.com/Mzack9999/gcache"
 
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/interactsh/pkg/client"
-	"github.com/khulnasoft-lab/interactsh/pkg/server"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/interactsh/pkg/client"
+	"github.com/projectdiscovery/interactsh/pkg/server"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/responsehighlighter"

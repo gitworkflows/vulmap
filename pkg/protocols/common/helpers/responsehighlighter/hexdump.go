@@ -7,7 +7,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 )
 
 // [0-9a-fA-F]{8} {2} 	- hexdump indexes (8 character hex value followed by two spaces)

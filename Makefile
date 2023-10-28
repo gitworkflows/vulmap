@@ -17,7 +17,7 @@ build:
 docs:
 	if ! which dstdocgen > /dev/null; then
 		echo -e "Command not found! Install? (y/n) \c"
-		go get -v github.com/khulnasoft-lab/yamldoc-go/cmd/docgen/dstdocgen
+		go get -v github.com/projectdiscovery/yamldoc-go/cmd/docgen/dstdocgen
 	fi
 	$(GOCMD) generate pkg/templates/templates.go
 	$(GOBUILD) -o "cmd/docgen/docgen" cmd/docgen/docgen.go

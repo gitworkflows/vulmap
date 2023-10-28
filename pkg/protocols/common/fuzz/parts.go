@@ -7,13 +7,13 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 
 	"github.com/corpix/uarand"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/expressions"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	sliceutil "github.com/khulnasoft-lab/utils/slice"
 	urlutil "github.com/khulnasoft-lab/utils/url"
 )

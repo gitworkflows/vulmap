@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 
 	"github.com/pkg/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"

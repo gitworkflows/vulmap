@@ -9,7 +9,7 @@ import (
 
 	"github.com/corpix/uarand"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/loader"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/core"
@@ -19,9 +19,9 @@ import (
 	httputil "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils/http"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	wappalyzer "github.com/khulnasoft-lab/wappalyzergo"
+	wappalyzer "github.com/projectdiscovery/wappalyzergo"
 	"gopkg.in/yaml.v2"
 )
 

@@ -3,7 +3,7 @@ package runner
 import (
 	"fmt"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	updateutils "github.com/khulnasoft-lab/utils/update"
 )

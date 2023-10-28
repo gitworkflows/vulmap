@@ -8,8 +8,8 @@ import (
 	"github.com/antchfx/htmlquery"
 	"github.com/antchfx/xmlquery"
 
-	dslRepo "github.com/khulnasoft-lab/dsl"
-	"github.com/khulnasoft-lab/gologger"
+	dslRepo "github.com/projectdiscovery/dsl"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/common/dsl"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/expressions"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"

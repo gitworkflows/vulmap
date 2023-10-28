@@ -14,7 +14,7 @@ import (
 
 	"github.com/charmbracelet/glamour"
 	"github.com/olekukonko/tablewriter"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/external/customtemplates"
 	errorutil "github.com/khulnasoft-lab/utils/errors"

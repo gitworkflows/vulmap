@@ -6,8 +6,8 @@ import (
 
 	"github.com/Knetic/govaluate"
 	"github.com/miekg/dns"
-	"github.com/khulnasoft-lab/dsl"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/dsl"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/dns/dnsclientpool"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	sliceutil "github.com/khulnasoft-lab/utils/slice"

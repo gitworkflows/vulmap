@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/goflags"
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/gologger/levels"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/gologger/levels"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/disk"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols"
@@ -22,7 +22,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/protocolstate"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	"github.com/khulnasoft-lab/retryablehttp-go"
+	"github.com/projectdiscovery/retryablehttp-go"
 	errorutil "github.com/khulnasoft-lab/utils/errors"
 	"gopkg.in/yaml.v3"
 )

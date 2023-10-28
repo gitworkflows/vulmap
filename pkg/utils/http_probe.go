@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/corpix/uarand"
-	"github.com/khulnasoft-lab/httpx/common/httpx"
+	"github.com/projectdiscovery/httpx/common/httpx"
 )
 
 var (

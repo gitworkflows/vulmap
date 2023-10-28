@@ -3,7 +3,7 @@ package replacer
 import (
 	"strings"
 
-	"github.com/khulnasoft-lab/fasttemplate"
+	"github.com/projectdiscovery/fasttemplate"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/marker"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"

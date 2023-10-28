@@ -8,7 +8,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 	updateutils "github.com/khulnasoft-lab/utils/update"

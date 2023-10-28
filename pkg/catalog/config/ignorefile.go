@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"github.com/khulnasoft-lab/gologger"
+	"github.com/projectdiscovery/gologger"
 	"gopkg.in/yaml.v2"
 )
 

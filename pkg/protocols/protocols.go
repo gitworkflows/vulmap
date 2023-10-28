@@ -3,7 +3,7 @@ package protocols
 import (
 	"sync/atomic"
 
-	"github.com/khulnasoft-lab/ratelimit"
+	"github.com/projectdiscovery/ratelimit"
 	mapsutil "github.com/khulnasoft-lab/utils/maps"
 	stringsutil "github.com/khulnasoft-lab/utils/strings"
 

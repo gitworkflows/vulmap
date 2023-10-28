@@ -13,9 +13,9 @@ import (
 	"github.com/go-playground/validator/v10"
 
 	"github.com/khulnasoft-lab/goflags"
-	"github.com/khulnasoft-lab/gologger"
-	"github.com/khulnasoft-lab/gologger/formatter"
-	"github.com/khulnasoft-lab/gologger/levels"
+	"github.com/projectdiscovery/gologger"
+	"github.com/projectdiscovery/gologger/formatter"
+	"github.com/projectdiscovery/gologger/levels"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/protocolinit"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"

@@ -3,7 +3,7 @@ package structs
 import (
 	_ "embed"
 
-	"github.com/khulnasoft-lab/gostruct"
+	"github.com/projectdiscovery/gostruct"
 )
 
 // StructsUnpack the byte slice (presumably packed by Pack(format, msg)) according to the given format.
