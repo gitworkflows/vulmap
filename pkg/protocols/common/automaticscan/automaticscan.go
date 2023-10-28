@@ -20,7 +20,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/projectdiscovery/retryablehttp-go"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 	wappalyzer "github.com/projectdiscovery/wappalyzergo"
 	"gopkg.in/yaml.v2"
 )

@@ -23,7 +23,7 @@ import (
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
 	"github.com/projectdiscovery/retryabledns"
-	iputil "github.com/khulnasoft-lab/utils/ip"
+	iputil "github.com/projectdiscovery/utils/ip"
 )
 
 var _ protocols.Request = &Request{}

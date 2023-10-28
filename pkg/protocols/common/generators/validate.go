@@ -8,8 +8,8 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	folderutil "github.com/khulnasoft-lab/utils/folder"
+	fileutil "github.com/projectdiscovery/utils/file"
+	folderutil "github.com/projectdiscovery/utils/folder"
 )
 
 // validate validates the payloads if any.

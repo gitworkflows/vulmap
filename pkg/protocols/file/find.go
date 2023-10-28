@@ -9,8 +9,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	folderutil "github.com/khulnasoft-lab/utils/folder"
+	fileutil "github.com/projectdiscovery/utils/file"
+	folderutil "github.com/projectdiscovery/utils/folder"
 )
 
 // getInputPaths parses the specified input paths and returns a compiled

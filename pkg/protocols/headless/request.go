@@ -25,7 +25,7 @@ import (
 	protocolutils "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 var _ protocols.Request = &Request{}

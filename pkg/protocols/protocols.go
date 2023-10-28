@@ -4,8 +4,8 @@ import (
 	"sync/atomic"
 
 	"github.com/projectdiscovery/ratelimit"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	mapsutil "github.com/projectdiscovery/utils/maps"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 
 	"github.com/logrusorgru/aurora"
 

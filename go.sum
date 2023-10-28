@@ -601,10 +601,6 @@ github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4
 github.com/kevinburke/ssh_config v1.2.0/go.mod h1:CT57kijsi8u/K/BOFA39wgDQJ9CxiF4nAY/ojJ6r6mM=
 github.com/khulnasoft-lab/blackrock v0.0.3 h1:oDLnl6985Po+JhaNDnugD4uofycuMR2BI/Ip/yEC4UE=
 github.com/khulnasoft-lab/blackrock v0.0.3/go.mod h1:Upg2tduxXxOVf1T6XhG/1RUBVZqORH+Rj9QBmM1oIDU=
-github.com/khulnasoft-lab/goflags v0.1.15 h1:lc2g0bsRkRY8n0wWiEQsG2vml29LOMTJUQ9sEBRfADY=
-github.com/khulnasoft-lab/goflags v0.1.15/go.mod h1:K+hfNcepk9NADqbv+b3ek6kcWqRg4J7dwyIfJXHMe6w=
-github.com/khulnasoft-lab/gologger v1.1.12 h1:ks7Paf/RcnbvbMkoIIAopkAIDgohQ9tn6Cr/JNvz/Co=
-github.com/khulnasoft-lab/gologger v1.1.12/go.mod h1:AZyjwvwMPR+1uJncgPpU2+UKdSrviPkrl+l9xSLyJnY=
 github.com/khulnasoft-lab/hmap v0.0.17 h1:gipTgR6kNqEPbOnjqOHvs2ABur4y158+4rLbPhsqqVk=
 github.com/khulnasoft-lab/hmap v0.0.17/go.mod h1:gQFTlodsy37ynTPIOW15IhGcnOPHRoC0DkFdxjHCgI0=
 github.com/khulnasoft-lab/utils v0.0.46 h1:Hp/LQV8Hf/p2+xh5j4bOlO9TB652YZQGOc9UTJOp1vw=

@@ -10,7 +10,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/fuzz"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/headless/engine"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 // Request contains a Headless protocol request to be made from a template

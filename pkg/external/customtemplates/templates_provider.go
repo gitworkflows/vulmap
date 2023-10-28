@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 type Provider interface {

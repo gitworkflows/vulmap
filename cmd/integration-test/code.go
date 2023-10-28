@@ -5,7 +5,7 @@ import (
 	"log"
 	"path/filepath"
 
-	osutils "github.com/khulnasoft-lab/utils/os"
+	osutils "github.com/projectdiscovery/utils/os"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/signer"

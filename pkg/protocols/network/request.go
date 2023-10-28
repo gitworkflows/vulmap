@@ -28,8 +28,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"
 	protocolutils "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 var _ protocols.Request = &Request{}

@@ -11,7 +11,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/expressions"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/network/networkclientpool"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 // Request contains a Network protocol request to be made from a template

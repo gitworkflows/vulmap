@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 func CreateLink(title string, url string) string {

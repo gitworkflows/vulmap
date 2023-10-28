@@ -23,7 +23,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/eventcreator"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/responsehighlighter"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 
 var _ protocols.Request = &Request{}

@@ -13,8 +13,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/writer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	cryptoutil "github.com/khulnasoft-lab/utils/crypto"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	cryptoutil "github.com/projectdiscovery/utils/crypto"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 // Cluster clusters a list of templates into a lesser number if possible based

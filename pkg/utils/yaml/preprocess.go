@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/extensions"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	fileutil "github.com/projectdiscovery/utils/file"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var reImportsPattern = regexp.MustCompile(`(?m)# !include:(.+.yaml)`)

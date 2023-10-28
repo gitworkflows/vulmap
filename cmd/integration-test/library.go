@@ -14,7 +14,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/disk"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/loader"

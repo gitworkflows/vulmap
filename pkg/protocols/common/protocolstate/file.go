@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 var (

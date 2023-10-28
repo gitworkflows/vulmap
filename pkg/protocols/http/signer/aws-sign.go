@@ -14,7 +14,7 @@ import (
 	awsconfig "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/projectdiscovery/gologger"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 const defaultEmptyPayloadHash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"

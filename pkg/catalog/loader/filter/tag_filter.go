@@ -16,7 +16,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/matchers"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 
 // TagFilter is used to filter vulmap templates for tag based execution

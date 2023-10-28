@@ -25,7 +25,7 @@ import (
 	protocolutils "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 // Request is a request for the SSL protocol

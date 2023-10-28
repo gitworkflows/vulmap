@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/stringslice"
 )
 

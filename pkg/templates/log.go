@@ -8,7 +8,7 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 var (

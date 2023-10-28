@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/antchfx/xpath"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 	"gopkg.in/yaml.v3"
 )
 

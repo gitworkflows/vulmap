@@ -11,7 +11,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/extensions"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
 	"github.com/projectdiscovery/retryablehttp-go"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 type ContentType string

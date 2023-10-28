@@ -37,10 +37,10 @@ import (
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/projectdiscovery/rawhttp"
-	"github.com/khulnasoft-lab/utils/reader"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	"github.com/projectdiscovery/utils/reader"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 const defaultMaxWorkers = 150

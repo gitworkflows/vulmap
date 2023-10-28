@@ -71,9 +71,7 @@ require (
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/h2non/filetype v1.1.3
 	github.com/hirochachacha/go-smb2 v1.1.0
-	github.com/khulnasoft-lab/goflags v0.1.15
 	github.com/khulnasoft-lab/hmap v0.0.17
-	github.com/khulnasoft-lab/utils v0.0.46
 	github.com/klauspost/compress v1.16.7
 	github.com/labstack/echo/v4 v4.10.2
 	github.com/lib/pq v1.10.1
@@ -82,6 +80,7 @@ require (
 	github.com/praetorian-inc/fingerprintx v1.1.9
 	github.com/projectdiscovery/dsl v0.0.26
 	github.com/projectdiscovery/fasttemplate v0.0.2
+	github.com/projectdiscovery/goflags v0.1.25
 	github.com/projectdiscovery/gologger v1.1.11
 	github.com/projectdiscovery/gostruct v0.0.1
 	github.com/projectdiscovery/gozero v0.0.1
@@ -93,6 +92,7 @@ require (
 	github.com/projectdiscovery/sarif v0.0.1
 	github.com/projectdiscovery/tlsx v1.1.6-0.20231016194953-a3ff9518c766
 	github.com/projectdiscovery/uncover v1.0.7
+	github.com/projectdiscovery/utils v0.0.58
 	github.com/projectdiscovery/wappalyzergo v0.0.109
 	github.com/redis/go-redis/v9 v9.1.0
 	github.com/ropnop/gokrb5/v8 v8.0.0-20201111231119-729746023c02
@@ -165,7 +165,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kataras/jwt v0.1.10 // indirect
 	github.com/khulnasoft-lab/blackrock v0.0.3 // indirect
-	github.com/khulnasoft-lab/gologger v1.1.12 // indirect
+	github.com/khulnasoft-lab/utils v0.0.46 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mackerelio/go-osstat v0.2.4 // indirect
@@ -184,8 +184,6 @@ require (
 	github.com/projectdiscovery/asnmap v1.0.5 // indirect
 	github.com/projectdiscovery/cdncheck v1.0.9 // indirect
 	github.com/projectdiscovery/freeport v0.0.5 // indirect
-	github.com/projectdiscovery/goflags v0.1.25 // indirect
-	github.com/projectdiscovery/utils v0.0.58 // indirect
 	github.com/quic-go/quic-go v0.38.1 // indirect
 	github.com/refraction-networking/utls v1.5.4 // indirect
 	github.com/shoenig/go-m1cpu v0.1.6 // indirect

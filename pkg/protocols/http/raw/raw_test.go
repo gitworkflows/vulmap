@@ -3,7 +3,7 @@ package raw
 import (
 	"testing"
 
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/stretchr/testify/require"
 )
 

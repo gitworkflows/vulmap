@@ -14,7 +14,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/extensions"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/signer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 // Due to file references in sensitive fields of template

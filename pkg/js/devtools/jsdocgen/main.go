@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
 	openai "github.com/sashabaranov/go-openai"
 )
 

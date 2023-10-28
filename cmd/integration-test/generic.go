@@ -11,7 +11,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
+	permissionutil "github.com/projectdiscovery/utils/permission"
 )
 
 var genericTestcases = []TestCaseInfo{

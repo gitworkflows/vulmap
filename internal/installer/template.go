@@ -17,10 +17,10 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/external/customtemplates"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	updateutils "github.com/khulnasoft-lab/utils/update"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	updateutils "github.com/projectdiscovery/utils/update"
 )
 
 const (

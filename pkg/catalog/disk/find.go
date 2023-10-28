@@ -10,9 +10,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	updateutils "github.com/khulnasoft-lab/utils/update"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	updateutils "github.com/projectdiscovery/utils/update"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 var deprecatedPathsCounter int

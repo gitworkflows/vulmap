@@ -3,7 +3,7 @@ package generators
 import (
 	"os"
 
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var envVars map[string]interface{}

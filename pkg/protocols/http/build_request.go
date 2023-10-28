@@ -25,10 +25,10 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types/scanstrategy"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	readerutil "github.com/khulnasoft-lab/utils/reader"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	readerutil "github.com/projectdiscovery/utils/reader"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // ErrEvalExpression

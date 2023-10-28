@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
-	"github.com/khulnasoft-lab/utils/env"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	folderutil "github.com/khulnasoft-lab/utils/folder"
+	"github.com/projectdiscovery/utils/env"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	folderutil "github.com/projectdiscovery/utils/folder"
 )
 
 // DefaultConfig is the default vulmap configuration

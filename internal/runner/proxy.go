@@ -9,9 +9,9 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	proxyutils "github.com/khulnasoft-lab/utils/proxy"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	proxyutils "github.com/projectdiscovery/utils/proxy"
 )
 
 // loadProxyServers load list of proxy servers from file or comma separated

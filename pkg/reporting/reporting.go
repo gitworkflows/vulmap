@@ -23,9 +23,9 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/trackers/github"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/trackers/gitlab"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/trackers/jira"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 
 // Filter filters the received event and decides whether to perform

@@ -14,7 +14,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/projectdiscovery/ratelimit"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 // unsafeOptions are those vulmap objects/instances/types

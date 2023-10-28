@@ -11,8 +11,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/exporters/markdown/util"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/reporting/format"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	fileutil "github.com/projectdiscovery/utils/file"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 const indexFileName = "index.md"

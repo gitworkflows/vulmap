@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/projectdiscovery/rawhttp/client"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // Request defines a basic HTTP raw request

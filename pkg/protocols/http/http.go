@@ -17,7 +17,7 @@ import (
 	httputil "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils/http"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 // Request contains a http request to be made from a template

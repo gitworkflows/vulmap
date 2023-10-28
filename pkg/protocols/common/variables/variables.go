@@ -11,7 +11,7 @@ import (
 	protocolutils "github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/utils"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 // Variable is a key-value pair of strings that can be used

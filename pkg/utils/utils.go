@@ -10,7 +10,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/yaml"
 	"github.com/projectdiscovery/retryablehttp-go"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 func IsBlank(value string) bool {

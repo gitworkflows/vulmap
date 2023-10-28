@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	osutils "github.com/khulnasoft-lab/utils/os"
+	osutils "github.com/projectdiscovery/utils/os"
 )
 
 var networkTestcases = []TestCaseInfo{

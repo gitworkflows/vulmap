@@ -1,7 +1,7 @@
 package http
 
 import (
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 	"golang.org/x/exp/maps"
 )
 

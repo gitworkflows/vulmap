@@ -1,6 +1,6 @@
 package main
 
-import osutils "github.com/khulnasoft-lab/utils/os"
+import osutils "github.com/projectdiscovery/utils/os"
 
 // All Interactsh related testcases
 var interactshTestCases = []TestCaseInfo{

@@ -10,8 +10,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/projectdiscovery/uncover"
 	"github.com/projectdiscovery/uncover/sources"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	mapsutil "github.com/projectdiscovery/utils/maps"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 // returns csv string of uncover supported agents

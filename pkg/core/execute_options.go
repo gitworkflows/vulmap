@@ -12,7 +12,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types/scanstrategy"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 // Execute takes a list of templates/workflows that have been compiled

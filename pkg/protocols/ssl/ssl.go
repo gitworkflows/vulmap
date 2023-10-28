@@ -30,9 +30,9 @@ import (
 	"github.com/projectdiscovery/tlsx/pkg/tlsx"
 	"github.com/projectdiscovery/tlsx/pkg/tlsx/clients"
 	"github.com/projectdiscovery/tlsx/pkg/tlsx/openssl"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // Request is a request for the SSL protocol

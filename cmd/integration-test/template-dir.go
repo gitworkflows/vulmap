@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 var templatesDirTestCases = []TestCaseInfo{

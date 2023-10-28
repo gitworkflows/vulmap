@@ -21,7 +21,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/protocolstate"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils/testheadless"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 func TestActionNavigate(t *testing.T) {

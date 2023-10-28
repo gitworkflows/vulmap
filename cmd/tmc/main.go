@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog"
@@ -23,7 +23,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 	"gopkg.in/yaml.v3"
 )
 

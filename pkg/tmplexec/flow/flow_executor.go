@@ -18,9 +18,9 @@ import (
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 	"go.uber.org/multierr"
 )
 

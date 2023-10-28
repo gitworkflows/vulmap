@@ -25,8 +25,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	osutils "github.com/khulnasoft-lab/utils/os"
+	fileutil "github.com/projectdiscovery/utils/file"
+	osutils "github.com/projectdiscovery/utils/os"
 )
 
 // Writer is an interface which writes output to somewhere for vulmap events.

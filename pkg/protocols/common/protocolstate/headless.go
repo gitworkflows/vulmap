@@ -6,9 +6,9 @@ import (
 	"github.com/go-rod/rod"
 	"github.com/go-rod/rod/lib/proto"
 	"github.com/projectdiscovery/networkpolicy"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 	"go.uber.org/multierr"
 )
 

@@ -24,7 +24,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types/scanstrategy"
 	"github.com/projectdiscovery/rawhttp"
 	"github.com/projectdiscovery/retryablehttp-go"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 // DoHealthCheck performs self-diagnostic checks

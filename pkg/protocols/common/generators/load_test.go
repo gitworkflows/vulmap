@@ -8,7 +8,7 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/disk"
-	osutils "github.com/khulnasoft-lab/utils/os"
+	osutils "github.com/projectdiscovery/utils/os"
 	"github.com/stretchr/testify/require"
 )
 

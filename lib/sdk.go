@@ -21,7 +21,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/projectdiscovery/ratelimit"
 	"github.com/projectdiscovery/retryablehttp-go"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 // VulmapSDKOptions contains options for vulmap SDK

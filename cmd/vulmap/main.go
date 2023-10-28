@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/levels"
 	"github.com/projectdiscovery/interactsh/pkg/client"
@@ -30,9 +30,9 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types/scanstrategy"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/monitor"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	updateutils "github.com/khulnasoft-lab/utils/update"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	updateutils "github.com/projectdiscovery/utils/update"
 )
 
 var (

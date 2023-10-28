@@ -12,7 +12,7 @@ import (
 
 	"github.com/go-playground/validator/v10"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/gologger/formatter"
 	"github.com/projectdiscovery/gologger/levels"
@@ -22,10 +22,10 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/headless/engine"
 	protocoltypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	"github.com/khulnasoft-lab/utils/generic"
-	logutil "github.com/khulnasoft-lab/utils/log"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	fileutil "github.com/projectdiscovery/utils/file"
+	"github.com/projectdiscovery/utils/generic"
+	logutil "github.com/projectdiscovery/utils/log"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 func ConfigureOptions() error {

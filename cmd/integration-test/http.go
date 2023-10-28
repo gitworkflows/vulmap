@@ -20,11 +20,11 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
 	"github.com/projectdiscovery/retryablehttp-go"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	logutil "github.com/khulnasoft-lab/utils/log"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	logutil "github.com/projectdiscovery/utils/log"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var httpTestcases = []TestCaseInfo{

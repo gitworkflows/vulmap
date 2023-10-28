@@ -7,7 +7,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types/scanstrategy"
 	"github.com/projectdiscovery/retryablehttp-go"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 var (

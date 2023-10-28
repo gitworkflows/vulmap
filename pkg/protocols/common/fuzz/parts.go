@@ -14,8 +14,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // executePartRule executes part rules based on type

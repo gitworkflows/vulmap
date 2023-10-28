@@ -17,7 +17,7 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 var (

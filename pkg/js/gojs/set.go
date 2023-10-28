@@ -2,7 +2,7 @@ package gojs
 
 import (
 	"github.com/dop251/goja"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
+	errorutil "github.com/projectdiscovery/utils/errors"
 )
 
 var (

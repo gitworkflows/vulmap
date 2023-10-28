@@ -7,7 +7,7 @@ import (
 
 	"github.com/alecthomas/jsonschema"
 	"github.com/pkg/errors"
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/stringslice"
 )
 

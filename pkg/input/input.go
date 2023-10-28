@@ -7,10 +7,10 @@ import (
 
 	"github.com/khulnasoft-lab/hmap/store/hybrid"
 	templateTypes "github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	"github.com/khulnasoft-lab/utils/ports"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	fileutil "github.com/projectdiscovery/utils/file"
+	"github.com/projectdiscovery/utils/ports"
+	stringsutil "github.com/projectdiscovery/utils/strings"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // Helper is a structure for helping with input transformation

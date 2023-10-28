@@ -12,7 +12,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/tmplexec/flow/builtin"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 // contains all internal/unexported methods of flow

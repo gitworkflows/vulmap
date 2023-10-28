@@ -9,8 +9,8 @@ import (
 
 	"github.com/projectdiscovery/fastdialer/fastdialer"
 	"github.com/projectdiscovery/retryablehttp-go"
-	iputil "github.com/khulnasoft-lab/utils/ip"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	iputil "github.com/projectdiscovery/utils/ip"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
+	permissionutil "github.com/projectdiscovery/utils/permission"
 )
 
 func TestFindResponses(t *testing.T) {

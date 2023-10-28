@@ -10,7 +10,7 @@ import (
 	"github.com/logrusorgru/aurora"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
+	sliceutil "github.com/projectdiscovery/utils/slice"
 )
 
 type TestCaseInfo struct {

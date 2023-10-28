@@ -14,8 +14,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/js/gojs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/utils/vardump"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var (

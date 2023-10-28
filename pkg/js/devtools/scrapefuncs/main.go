@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	filutil "github.com/khulnasoft-lab/utils/file"
+	filutil "github.com/projectdiscovery/utils/file"
 	"github.com/sashabaranov/go-openai"
 )
 

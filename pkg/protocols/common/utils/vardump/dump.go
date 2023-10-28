@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 // EnableVarDump enables var dump for debugging optionally

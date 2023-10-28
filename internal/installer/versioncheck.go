@@ -10,7 +10,7 @@ import (
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/projectdiscovery/retryablehttp-go"
-	updateutils "github.com/khulnasoft-lab/utils/update"
+	updateutils "github.com/projectdiscovery/utils/update"
 )
 
 const (

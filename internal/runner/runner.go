@@ -15,8 +15,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/internal/installer"
 	"github.com/khulnasoft-lab/vulmap/v3/internal/runner/vulmapcloud"
 	uncoverlib "github.com/projectdiscovery/uncover"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
-	updateutils "github.com/khulnasoft-lab/utils/update"
+	permissionutil "github.com/projectdiscovery/utils/permission"
+	updateutils "github.com/projectdiscovery/utils/update"
 
 	"github.com/logrusorgru/aurora"
 	"github.com/pkg/errors"
@@ -57,7 +57,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/stats"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils/yaml"
 	"github.com/projectdiscovery/retryablehttp-go"
-	ptrutil "github.com/khulnasoft-lab/utils/ptr"
+	ptrutil "github.com/projectdiscovery/utils/ptr"
 )
 
 // Runner is a client for running the enumeration process.

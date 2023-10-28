@@ -5,8 +5,8 @@ import (
 	"net"
 
 	"github.com/pkg/errors"
-	iputil "github.com/khulnasoft-lab/utils/ip"
-	randutil "github.com/khulnasoft-lab/utils/rand"
+	iputil "github.com/projectdiscovery/utils/ip"
+	randutil "github.com/projectdiscovery/utils/rand"
 )
 
 const (

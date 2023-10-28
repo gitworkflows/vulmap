@@ -14,7 +14,7 @@ import (
 
 	"github.com/DataDog/gostackparse"
 	"github.com/projectdiscovery/gologger"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
+	permissionutil "github.com/projectdiscovery/utils/permission"
 	"github.com/rs/xid"
 )
 

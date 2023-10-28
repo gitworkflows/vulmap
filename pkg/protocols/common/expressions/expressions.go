@@ -8,7 +8,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/operators/common/dsl"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/marker"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/replacer"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 // Eval compiles the given expression and evaluate it with the given values preserving the return type

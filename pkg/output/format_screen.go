@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	mapsutil "github.com/khulnasoft-lab/utils/maps"
+	mapsutil "github.com/projectdiscovery/utils/maps"
 )
 
 // formatScreen formats the output for showing on screen.

@@ -21,8 +21,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/responsehighlighter"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/helpers/writer"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 // Client is a wrapped client for interactsh server.

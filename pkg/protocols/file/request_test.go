@@ -15,7 +15,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/output"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
+	permissionutil "github.com/projectdiscovery/utils/permission"
 )
 
 func TestFileExecuteWithResults(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	"github.com/stretchr/testify/require"
 )

@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	fileutil "github.com/projectdiscovery/utils/file"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 // ResolvePath resolves the path to an absolute one in various ways.

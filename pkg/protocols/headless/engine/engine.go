@@ -12,9 +12,9 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	osutils "github.com/khulnasoft-lab/utils/os"
-	processutil "github.com/khulnasoft-lab/utils/process"
+	fileutil "github.com/projectdiscovery/utils/file"
+	osutils "github.com/projectdiscovery/utils/os"
+	processutil "github.com/projectdiscovery/utils/process"
 )
 
 // Browser is a browser structure for vulmap headless module

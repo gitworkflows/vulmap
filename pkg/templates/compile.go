@@ -23,8 +23,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/tmplexec"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
 	"github.com/projectdiscovery/retryablehttp-go"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var (

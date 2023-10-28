@@ -7,14 +7,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/khulnasoft-lab/goflags"
+	"github.com/projectdiscovery/goflags"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/model/types/severity"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	folderutil "github.com/khulnasoft-lab/utils/folder"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
+	folderutil "github.com/projectdiscovery/utils/folder"
 )
 
 var (

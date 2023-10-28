@@ -13,7 +13,7 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/replacer"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/dns/dnsclientpool"
 	"github.com/projectdiscovery/retryabledns"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 )
 
 // Request contains a DNS protocol request to be made from a template

@@ -10,8 +10,8 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/dns/dnsclientpool"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 
 var (

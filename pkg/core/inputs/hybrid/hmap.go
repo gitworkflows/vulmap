@@ -24,11 +24,11 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/uncover"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
 	uncoverlib "github.com/projectdiscovery/uncover"
-	fileutil "github.com/khulnasoft-lab/utils/file"
-	iputil "github.com/khulnasoft-lab/utils/ip"
-	readerutil "github.com/khulnasoft-lab/utils/reader"
-	sliceutil "github.com/khulnasoft-lab/utils/slice"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	fileutil "github.com/projectdiscovery/utils/file"
+	iputil "github.com/projectdiscovery/utils/ip"
+	readerutil "github.com/projectdiscovery/utils/reader"
+	sliceutil "github.com/projectdiscovery/utils/slice"
+	urlutil "github.com/projectdiscovery/utils/url"
 )
 
 const DefaultMaxDedupeItemsCount = 10000

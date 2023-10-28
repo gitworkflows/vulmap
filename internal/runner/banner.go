@@ -5,7 +5,7 @@ import (
 
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
-	updateutils "github.com/khulnasoft-lab/utils/update"
+	updateutils "github.com/projectdiscovery/utils/update"
 )
 
 var banner = fmt.Sprintf(`

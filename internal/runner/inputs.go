@@ -10,7 +10,7 @@ import (
 	"github.com/projectdiscovery/httpx/common/httpx"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/utils"
-	stringsutil "github.com/khulnasoft-lab/utils/strings"
+	stringsutil "github.com/projectdiscovery/utils/strings"
 	"github.com/remeh/sizedwaitgroup"
 )
 

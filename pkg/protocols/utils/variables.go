@@ -8,8 +8,8 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/contextargs"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/common/generators"
-	maputil "github.com/khulnasoft-lab/utils/maps"
-	urlutil "github.com/khulnasoft-lab/utils/url"
+	maputil "github.com/projectdiscovery/utils/maps"
+	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/weppos/publicsuffix-go/publicsuffix"
 )
 

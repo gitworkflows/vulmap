@@ -24,8 +24,8 @@ import (
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/protocols/whois"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/templates/types"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/workflows"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	fileutil "github.com/projectdiscovery/utils/file"
 	"go.uber.org/multierr"
 	"gopkg.in/yaml.v2"
 )

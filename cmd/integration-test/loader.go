@@ -10,8 +10,8 @@ import (
 	"github.com/julienschmidt/httprouter"
 
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/testutils"
-	errorutil "github.com/khulnasoft-lab/utils/errors"
-	permissionutil "github.com/khulnasoft-lab/utils/permission"
+	errorutil "github.com/projectdiscovery/utils/errors"
+	permissionutil "github.com/projectdiscovery/utils/permission"
 )
 
 var loaderTestcases = []TestCaseInfo{

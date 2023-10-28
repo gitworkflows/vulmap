@@ -12,7 +12,7 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/catalog/config"
 	"github.com/khulnasoft-lab/vulmap/v3/pkg/types"
-	fileutil "github.com/khulnasoft-lab/utils/file"
+	fileutil "github.com/projectdiscovery/utils/file"
 	"golang.org/x/oauth2"
 	"gopkg.in/src-d/go-git.v4/plumbing/transport/http"
 )
