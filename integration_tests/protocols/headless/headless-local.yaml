@@ -1,0 +1,15 @@
+id: vulmap-headless-local
+
+info:
+  name: Vulmap Headless Local
+  author: pdteam
+  severity: high
+
+headless:
+  - steps: 
+    - action: navigate
+      args:
+        url: "{{BaseURL}}"
+
+    - action: waitload
+    

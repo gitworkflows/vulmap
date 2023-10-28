@@ -1,0 +1,32 @@
+{{- if .Values.vulmap.enabled -}}
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ .Chart.Name }}-vulmap-cron
+spec:
+  schedule: "{{ .Values.vulmap.cron }}"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: {{ .Chart.Name }}-vulmap-cron
+            image: "{{ .Values.vulmap.image.repository }}:{{ .Values.vulmap.image.tag | default .Chart.AppVersion }}"
+            imagePullPolicy: {{ .Values.vulmap.image.pullPolicy }}
+            command: [ "vulmap", "-config", "/config/vulmap.conf" ]
+            volumeMounts:
+              - name: vulmap-conf
+                mountPath: /config/vulmap.conf
+                subPath: vulmap.conf
+              - name: vulmap-target-list
+                mountPath: /config/target-list.txt
+                subPath: target-list.txt
+          restartPolicy: OnFailure
+          volumes:
+            - name: vulmap-conf
+              configMap:
+                name: vulmap-conf
+            - name: vulmap-target-list
+              configMap:
+                name: vulmap-target-list
+{{- end }}

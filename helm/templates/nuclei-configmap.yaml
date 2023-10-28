@@ -1,0 +1,17 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vulmap-conf
+data:
+  vulmap.conf: |-
+{{ .Values.vulmap.config | indent 4 }}
+
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vulmap-target-list
+data:
+  target-list.txt: |-
+{{ .Values.vulmap.target_list | indent 4 }}

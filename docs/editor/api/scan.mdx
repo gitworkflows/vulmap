@@ -1,0 +1,20 @@
+---
+title: "Scan Template"
+description: "Scan target host using a specified vulmap template."
+api: "POST https://templates-api.vulmap.sh/v1/template/user/scan"
+version: 'v1'
+---
+
+## Parameters (required)
+
+<ParamField body="target" type="string" required>
+  Target host to scan using vulmap template.
+
+  **Constraints**: Valid hostname or IP address or URL.
+</ParamField>
+
+<ParamField body="template_base64" type="string" required>
+  Base64 encoded vulmap template.
+
+  **Constraints**: Valid Base64 encoded template.
+</ParamField>

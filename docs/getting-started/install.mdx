@@ -1,0 +1,69 @@
+---
+title: 'Install'
+---
+
+
+<Tabs>
+  <Tab title="Go">
+    ```bash
+    go install -v github.com/khulnasoft-lab/vulmap/v3/cmd/vulmap@latest
+    ```
+
+    <Note>Vulmap require latest **GO** version to install successfully.</Note>
+
+  </Tab>
+  <Tab title="Brew">
+    ```bash
+    brew install vulmap
+    ```
+
+    <Note>Supported in **macOS** (or Linux)</Note>
+
+  </Tab>
+  <Tab title="Docker">
+    ```bash
+    docker pull khulnasoft-lab/vulmap:latest
+    ```
+
+    Docker-specific usage instructions can be found [here](./running#running-with-docker).
+  </Tab>
+  <Tab title="Github">
+    ```bash
+    git clone https://github.com/khulnasoft-lab/vulmap.git; \
+    cd vulmap/cmd/vulmap; \
+    go build; \
+    mv vulmap /usr/local/bin/; \
+    vulmap -version;
+    ```
+
+    <Note> Vulmap require the latest **GO** version to install successfully.</Note>
+
+  </Tab>
+  <Tab title="Binary">
+    ```bash
+    https://github.com/khulnasoft-lab/vulmap/releases
+    ```
+
+    <Tip>
+    - Download the latest binary for your OS.
+    - Unzip the ready to run binary.
+    </Tip>
+
+  </Tab>
+  <Tab title="Helm">
+    ```bash
+    git clone https://github.com/khulnasoft-lab/vulmap.git
+    cd vulmap/helm
+    helm upgrade --install vulmap . -f values.yaml 
+    ```
+
+    <Tip>
+    This Helm chart creates two primary resources (intended to be configured via `values.yaml`):
+
+      - A Kubernetes CronJob to run Vulmap on a defined schedule
+
+      - An [Interactsh](https://github.com/khulnasoft-lab/interactsh) service for Vulmap to use
+    </Tip>
+
+</Tab>
+</Tabs>
